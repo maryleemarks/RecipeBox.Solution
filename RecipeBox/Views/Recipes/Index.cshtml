@@ -1,0 +1,27 @@
+@using RecipeBox.Models;
+@model List<RecipeBox.Models.Recipe>
+
+<div class="container">
+<h1>Your Recipe's:</h1>
+<h3>See all your Recipe's below:</h3>
+
+<hr/>
+
+<h3>My Box:</h3>
+@if(@Model.Count == 0)
+{
+  <p>You have no Recipe's in your box!</p>
+}
+else
+{
+  <ul>
+    @foreach(Recipe recipe in Model)
+    {
+      <li>recipe.Name</li>
+    }  
+  </ul>
+}
+
+<button>@Html.ActionLink("Add Recipe!", "Create")</button>
+<button>@Html.ActionLink("Home", "Index", "Home")</button>
+</div>
