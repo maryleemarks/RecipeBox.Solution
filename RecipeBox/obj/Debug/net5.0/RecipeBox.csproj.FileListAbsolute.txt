@@ -56,3 +56,5 @@ C:\Users\maryl\desktop\RecipeBox.Solution\RecipeBox\obj\Debug\net5.0\RecipeBox.d
 C:\Users\maryl\desktop\RecipeBox.Solution\RecipeBox\obj\Debug\net5.0\ref\RecipeBox.dll
 C:\Users\maryl\desktop\RecipeBox.Solution\RecipeBox\obj\Debug\net5.0\RecipeBox.pdb
 C:\Users\maryl\desktop\RecipeBox.Solution\RecipeBox\obj\Debug\net5.0\RecipeBox.genruntimeconfig.cache
+C:\Users\maryl\desktop\RecipeBox.Solution\RecipeBox\obj\Debug\net5.0\Razor\Views\Recipes\AddIngredient.cshtml.g.cs
+C:\Users\maryl\desktop\RecipeBox.Solution\RecipeBox\obj\Debug\net5.0\Razor\Views\Recipes\AddTag.cshtml.g.cs

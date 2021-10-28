@@ -1,0 +1,20 @@
+@using RecipeBox.Models
+@model List<RecipeBox.Models.Tag>
+
+<h1>Tags</h1>
+@if (@Model.Count == 0)
+{
+  <h3>This recipe has no tags :(</h3>
+  <p>Add some tags so I'm easier to find</p>
+  <button>@Html.ActionLink("Add a tag", "Create")</button>
+}
+else
+{
+  @foreach (Tag tag in Model)
+  {
+    <li>@Html.ActionLink($"{tag.RecipeCategory}", "Details", new {id = tag.TagId})</li>
+  }
+<p>@Html.ActionLink("Add a tag", "Create")</p>
+<p>@Html.ActionLink("Home", "Index", "Home")</p>  
+}
+}
